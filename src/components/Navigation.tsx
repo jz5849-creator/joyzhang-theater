@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ViewState } from '../types';
-import { Plus, X } from 'lucide-react';
+import { Plus } from 'lucide-react';
 
 interface NavigationProps {
   currentView: ViewState;
