@@ -67,16 +67,6 @@ const About: React.FC = () => {
 
           {/* Portfolio/Resume Links Section */}
           <div className="mt-10 flex flex-col sm:flex-row gap-6">
-            {/* LINK 1: Artistic Resume */}
-            <a 
-              href="/resume.pdf" 
-              download="Joy_Zhang_Artistic_Resume.pdf"
-              className="group flex items-center gap-3 px-6 py-3 border border-neutral-600 hover:border-white transition-colors duration-300"
-            >
-              <span className="text-xs uppercase tracking-[0.2em] text-white">Artistic Resume</span>
-              <Download size={16} className="text-neutral-500 group-hover:text-white transition-colors" />
-            </a>
-            
             {/* LINK 2: Professional CV */}
             <a 
               href="/ProfessionalCV.pdf"
