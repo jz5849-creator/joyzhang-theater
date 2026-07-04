@@ -11,18 +11,73 @@ import type { Project } from './types';
 export const HERO_IMAGES = [
   "/hero-1.jpg",
   "/hero-2.JPG",
-  "/hero-3.JPG",
+  "/hero-3.jpg",
   "/hero-4.jpg",
-  "/hero-5.jpg",
+  "/hero-5.JPG",
   "/hero-6.jpg",
-  "/hero-7.5.jpg",
   "/hero-7.jpg",
+  "/hero-8.jpg",
   "/hero-9.jpg",
 ];
 
 export const PROJECTS: Project[] = [
-  {
+    {
     id: 'p1',
+    title: 'Ptaki Nocy',
+    role: 'Assistant Director',
+    year: '2026',
+    venue: 'The Dance Deivision at the Karol Szymanowski Academy of Music',
+    productionCompany: 'Kielecki Teatr Tańca',
+    category: 'Directing',
+    description: 'A memory play utilizing fractured light to represent the fragility of memory. The lighting design focused on creating isolated pockets of warmth amidst a cold, blue void, emphasizing the isolation of the characters.',
+    coverImage: 'po2-1',
+    credits: [
+      { role: 'Directed by', name: 'Allen Kuharski' },
+      { role: 'Assistant Directed by', name: 'Joy Zhang' },
+      { role: 'Lighting', name: 'Joy Zhang' },
+      { role: 'Performed by', name: 'Alicja Weisskopf, Antonina Dąbrowska, Tosia Manowska, Blanka Moryc, Yulia Prochasek, Daniel Szewczyk, Woyciech Sordyl, Kornelia Ciejka' },
+      { role: 'Photos', name: 'Kielecki Teatr Tańca' }
+    ],
+    gallery: [
+      'po2-1.jpg',
+      'po2-2.jpg',
+      'po2-3.jpg',
+      'po2-4.jpg',
+      'po2-5.jpg',
+      'po2-6.jpg',
+      'po2-7.jpg',
+    ]
+  },
+  {
+    id: 'p2',
+    title: 'Polish Pillow Book',
+    role: 'Assistant Director',
+    year: '2026',
+    venue: 'The Dance Deivision at the Karol Szymanowski Academy of Music',
+    productionCompany: 'Karol Szymanowski Academy of Music',
+    category: 'Directing',
+    description: 'A memory play utilizing fractured light to represent the fragility of memory. The lighting design focused on creating isolated pockets of warmth amidst a cold, blue void, emphasizing the isolation of the characters.',
+    coverImage: 'po1-0.5',
+    credits: [
+      { role: 'Directed by', name: 'Allen Kuharski' },
+      { role: 'Assistant Directed by', name: 'Joy Zhang' },
+      { role: 'Dramaturg', name: 'Joy Zhang' },
+      { role: 'Lighting', name: 'Joy Zhang' },
+      { role: 'Performed by', name: 'Xingya Wang, Haicheng Zhang' },
+      { role: 'Photos', name: 'Robert Frąckowiak' }
+    ],
+    gallery: [
+      'po1-1.jpg',
+      'po1-2.jpg',
+      'po1-3.jpg',
+      'po1-4.JPEG',
+      'po1-5.JPEG',
+      'po1-6.jpg',
+      'po1-8.JPEG',
+    ]
+  },
+  {
+    id: 'p3',
     title: 'Peculiarities',
     role: 'Lighting Designer',
     year: '2025',
@@ -52,7 +107,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p2',
+    id: 'p4',
     title: 'Between the Lines',
     role: 'Lighting Designer',
     year: '2025',
@@ -81,7 +136,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p3',
+    id: 'p5',
     title: 'No Inside',
     role: 'Director/Performer', 
     year: '2025',
@@ -105,7 +160,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p4',
+    id: 'p6',
     title: 'Aurora Leigh',
     role: 'Scenic Designer',
     year: '2025',
@@ -131,7 +186,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p5',
+    id: 'p7',
     title: 'Soldada',
     role: 'Lighting Designer',
     year: '2025',
@@ -156,7 +211,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p6',
+    id: 'p8',
     title: 'A Doll‘s House, Part 2',
     role: 'Assistant Producer',
     year: '2024',
@@ -187,7 +242,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p7',
+    id: 'p9',
     title: 'Of what is the world made?',
     role: 'Director',
     year: '2024',
@@ -207,7 +262,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p8',
+    id: 'p10',
     title: 'Bones & Flesh',
     role: 'Performer',
     year: '2024',
@@ -227,7 +282,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p9',
+    id: 'p11',
     title: 'Jing',
     role: 'Performer',
     year: '2023',
@@ -246,7 +301,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p10',
+    id: 'p12',
     title: 'Disorder',
     role: 'Performer',
     year: '2023',
