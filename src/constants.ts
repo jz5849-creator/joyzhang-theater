@@ -35,7 +35,8 @@ export const PROJECTS: Project[] = [
       { role: 'Assistant Directed by', name: 'Joy Zhang' },
       { role: 'Lighting', name: 'Joy Zhang' },
       { role: 'Performed by', name: 'Alicja Weisskopf, Antonina Dąbrowska, Tosia Manowska, Blanka Moryc, Yulia Prochasek, Daniel Szewczyk, Woyciech Sordyl, Kornelia Ciejka' },
-      { role: 'Photos', name: 'Kielecki Teatr Tańca' }
+      { role: 'Photos', name: 'Kielecki Teatr Tańca' },
+      { role: 'Text Adapted from', name: 'Adam Mickiewicz, Witold Gombrowicz' }
     ],
     gallery: [
       'po2-1.jpg',
@@ -63,7 +64,8 @@ export const PROJECTS: Project[] = [
       { role: 'Dramaturg', name: 'Joy Zhang' },
       { role: 'Lighting', name: 'Joy Zhang' },
       { role: 'Performed by', name: 'Xingya Wang, Haicheng Zhang' },
-      { role: 'Photos', name: 'Robert Frąckowiak' }
+      { role: 'Photos', name: 'Robert Frąckowiak' },
+      { role: 'Text Adapted from', name: 'Witold Gombrowicz' }
     ],
     gallery: [
       'po1-1.jpg',
