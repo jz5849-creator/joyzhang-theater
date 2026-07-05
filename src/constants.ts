@@ -10,14 +10,13 @@ import type { Project } from './types';
 
 export const HERO_IMAGES = [
   "/hero-1.jpg",
-  "/hero-2.JPG",
+  "/hero-2.jpg",
   "/hero-3.jpg",
   "/hero-4.jpg",
-  "/hero-5.JPG",
+  "/hero-5.jpg",
   "/hero-6.jpg",
   "/hero-7.jpg",
   "/hero-8.jpg",
-  "/hero-9.jpg",
 ];
 
 export const PROJECTS: Project[] = [
@@ -30,7 +29,7 @@ export const PROJECTS: Project[] = [
     productionCompany: 'Kielecki Teatr Tańca',
     category: 'Directing',
     description: 'A memory play utilizing fractured light to represent the fragility of memory. The lighting design focused on creating isolated pockets of warmth amidst a cold, blue void, emphasizing the isolation of the characters.',
-    coverImage: 'po2-1',
+    coverImage: 'po2-1.jpg',
     credits: [
       { role: 'Directed by', name: 'Allen Kuharski' },
       { role: 'Assistant Directed by', name: 'Joy Zhang' },
@@ -57,7 +56,7 @@ export const PROJECTS: Project[] = [
     productionCompany: 'Karol Szymanowski Academy of Music',
     category: 'Directing',
     description: 'A memory play utilizing fractured light to represent the fragility of memory. The lighting design focused on creating isolated pockets of warmth amidst a cold, blue void, emphasizing the isolation of the characters.',
-    coverImage: 'po1-0.5',
+    coverImage: 'po1-0.5.jpg',
     credits: [
       { role: 'Directed by', name: 'Allen Kuharski' },
       { role: 'Assistant Directed by', name: 'Joy Zhang' },
@@ -85,7 +84,7 @@ export const PROJECTS: Project[] = [
     productionCompany: 'Playwrights Horizon',
     category: 'Design',
     description: 'A memory play utilizing fractured light to represent the fragility of memory. The lighting design focused on creating isolated pockets of warmth amidst a cold, blue void, emphasizing the isolation of the characters.',
-    coverImage: 'pec-5.JPG',
+    coverImage: 'pec-5.jpg',
     credits: [
       { role: 'Lighting', name: 'Joy Zhang' },
       { role: 'Directed/Written by', name: 'Chava Clayman' },
@@ -96,14 +95,14 @@ export const PROJECTS: Project[] = [
       { role: 'Photos', name: 'Ahreumbi Rew' }
     ],
     gallery: [
-      'pec-1.JPG',
+      'pec-1.jpg',
       'pec-2.jpg',
       'pec-3.jpg',
       'pec-4.jpg',
-      'pec-5.JPG',
-      'pec-7.JPG',
+      'pec-5.jpg',
+      'pec-7.jpg',
       'pec-8.jpg',
-      'pec-9.JPG',
+      'pec-9.jpg',
     ]
   },
   {
@@ -307,7 +306,7 @@ export const PROJECTS: Project[] = [
     year: '2023',
     category: 'Performing',
     description: 'Immersive theater piece set in a labyrinth. As producer, I oversaw the site-specific logistics and audience journey design.',
-    coverImage: 'disorder封面.JPG',
+    coverImage: 'disorder封面.jpg',
     credits: [
       { role: 'Performed by', name: 'Joy Zhang' },
       { role: 'Directed by', name: 'Wangyang Cai' },

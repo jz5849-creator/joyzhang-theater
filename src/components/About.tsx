@@ -35,7 +35,7 @@ const About: React.FC = () => {
               3. Place 'portrait.jpg' inside the 'public' folder.
               
               1. 把你的照片重命名为 'portrait.jpg' (小写，不要空格)。
-              2. 用电脑打开照片，重新“导出”一次为 JPG (这能确保它不是 CMYK 打印色彩模式，Chrome 无法显示 CMYK)。
+              2. 用电脑打开照片，重新“导出”一次为 jpg (这能确保它不是 CMYK 打印色彩模式，Chrome 无法显示 CMYK)。
               3. 把照片放进 'public' 文件夹。
             */}
             <img 
