@@ -71,10 +71,10 @@ export const PROJECTS: Project[] = [
       'po1-1.jpg',
       'po1-2.jpg',
       'po1-3.jpg',
-      'po1-4.JPEG',
-      'po1-5.JPEG',
+      'po1-4.jpg',
+      'po1-5.jpg',
       'po1-6.jpg',
-      'po1-8.JPEG',
+      'po1-8.jpg',
     ]
   },
   {
