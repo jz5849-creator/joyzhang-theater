@@ -308,7 +308,7 @@ export const PROJECTS: Project[] = [
     year: '2023',
     category: 'Performing',
     description: 'Immersive theater piece set in a labyrinth. As producer, I oversaw the site-specific logistics and audience journey design.',
-    coverImage: 'disorder封面.jpg',
+    coverImage: 'disorder-cover.jpg',
     credits: [
       { role: 'Performed by', name: 'Joy Zhang' },
       { role: 'Directed by', name: 'Wangyang Cai' },
